@@ -10,7 +10,7 @@ const musicSchema = new mongoose.Schema({
         required: true
       },
       artist: {
-        type: mongoose.Schema.types.ObjectID,
+        type: mongoose.Schema.Types.ObjectId,
         red: 'user',
         required: true
       }
